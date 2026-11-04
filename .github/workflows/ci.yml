@@ -1,0 +1,26 @@
+name: CI - TP1
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  validation:
+    runs-on: ubuntu-latest
+    env:
+      PYTHONUTF8: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Dépendances figées
+        run: |
+          python -m venv .venv
+          . .venv/bin/activate
+          python -m pip install -r requirements.lock
+      - name: Diagnostic TP1
+        run: . .venv/bin/activate && python scripts/check_setup.py
+      - name: Tests
+        run: . .venv/bin/activate && python -m pytest -q
