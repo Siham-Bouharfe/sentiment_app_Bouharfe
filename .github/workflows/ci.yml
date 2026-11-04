@@ -1,4 +1,4 @@
-name: CI - TP2
+name: CI - TP4
 on: [push, pull_request]
 permissions:
   contents: read
@@ -24,5 +24,7 @@ jobs:
         run: . .venv/bin/activate && python scripts/check_setup.py
       - name: Entraînement reproductible
         run: . .venv/bin/activate && python src/make_demo.py && python src/train.py
-      - name: Tests
-        run: . .venv/bin/activate && python -m pytest -q
+      - name: Qualité statique
+        run: . .venv/bin/activate && python -m ruff check . && python -m mypy api
+      - name: Tests et couverture API
+        run: . .venv/bin/activate && python -m pytest --cov=api --cov-fail-under=95 -q
