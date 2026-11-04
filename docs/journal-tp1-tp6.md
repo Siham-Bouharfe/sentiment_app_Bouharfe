@@ -18,8 +18,10 @@ ne sont pas présentées comme réalisées.
 | TP6 | 133 tests réussis ; roue testée hors du dépôt | [tp6-tests.txt](verification/etapes/tp6-tests.txt), [rapport.json](verification/rapport.json) |
 
 L'historique importé conserve les deux premiers commits authentiques du binôme.
-La publication distante et les captures qui exigent une action humaine sont à
-consigner après vérification ; elles ne sont pas déduites des tests locaux.
+Les six pushes et les six pipelines GitHub sont attestés dans
+[le bilan de publication](verification/publication.md). Les captures historiques
+des manipulations non rejouées restent à réaliser par le binôme ; elles ne sont pas
+déduites des tests locaux.
 
 **Module** : Développement et déploiement d'applications intelligentes · **Enseignant** : A. Larhlimi
 

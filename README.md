@@ -103,5 +103,11 @@ Elle n'invente ni commits de deux auteurs, ni captures historiques, ni CI distan
 Les deux premiers commits authentiques du binôme sont conservés comme base,
 avec leurs auteurs d'origine. Les tests d'historique vérifient ces contributions.
 Chaque nouvelle contribution doit être commitée avec l'identité de son auteur réel.
-Il reste à configurer GitHub, pousser, vérifier Actions et publier `v0.6.0`.
-Voir [les étapes de remise](docs/remise.md).
+Les six commits TP1 à TP6 ont été poussés sur la branche
+[`reconstruction-tp1-tp6`](https://github.com/Siham-Bouharfe/sentiment_app_Bouharfe_a_Igoulalen_b/tree/reconstruction-tp1-tp6)
+du dépôt existant ; les six pipelines GitHub sont verts. La roue se télécharge aussi
+dans l'artefact `preuves-tp6` du [run TP6](https://github.com/Siham-Bouharfe/sentiment_app_Bouharfe_a_Igoulalen_b/actions/runs/41876358543).
+L'étiquette de cette version est
+[`v0.6.0-reconstruction`](https://github.com/Siham-Bouharfe/sentiment_app_Bouharfe_a_Igoulalen_b/releases/tag/v0.6.0-reconstruction) ;
+l'ancienne étiquette `v0.6.0` du dépôt est préservée.
+Voir [le bilan de publication](docs/verification/publication.md).
