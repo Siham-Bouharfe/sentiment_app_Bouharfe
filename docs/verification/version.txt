@@ -1,0 +1,5 @@
+Commande : "C:\Users\HP\Documents\5 IIR\Dev et Dep app intelligentes\tp-6 -02-11-2026\tp-6\.venv311\Scripts\python.exe" -m sentiment_app --version
+Dossier : C:\Users\HP\Documents\5 IIR\Dev et Dep app intelligentes\tp-6 -02-11-2026\tp-6
+Code : 0
+
+sentiment-app 0.6.0

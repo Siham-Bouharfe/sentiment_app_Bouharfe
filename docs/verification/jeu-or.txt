@@ -1,0 +1,26 @@
+Commande : "C:\Users\HP\Documents\5 IIR\Dev et Dep app intelligentes\tp-6 -02-11-2026\tp-6\.venv311\Scripts\python.exe" src/bilan_jeu_or.py
+Dossier : C:\Users\HP\Documents\5 IIR\Dev et Dep app intelligentes\tp-6 -02-11-2026\tp-6
+Code : 0
+
+juste                    POSITIVE     0.79  attendu POSITIVE  Service impeccable et livraison rapide
+juste                    NEGATIVE     0.85  attendu NEGATIVE  Produit cassé à l'arrivée et service client injoignable
+juste                    POSITIVE     0.65  attendu POSITIVE  Je recommande ce produit
+juste                    NEGATIVE     0.76  attendu NEGATIVE  Commande jamais reçue
+juste                    POSITIVE     0.73  attendu POSITIVE  Emballage soigné et notice claire
+juste                    NEGATIVE     0.80  attendu NEGATIVE  Application qui plante à chaque ouverture
+juste                    POSITIVE     0.68  attendu POSITIVE  Très satisfait de mon achat
+juste                    NEGATIVE     0.80  attendu NEGATIVE  Facture erronée et aucun remboursement
+juste                    POSITIVE     0.73  attendu POSITIVE  Produit solide et conforme à la description
+abstention               INDETERMINE  0.50  attendu NEGATIVE  Retour impossible et vendeur injoignable
+abstention               INDETERMINE  0.59  attendu NEGATIVE  Livraison rapide mais finalement produit cassé
+abstention               INDETERMINE  0.55  attendu POSITIVE  Produit décevant au début mais finalement excellent
+juste                    POSITIVE     0.78  attendu POSITIVE  Excellent rapport qualité prix
+abstention               INDETERMINE  0.59  attendu NEGATIVE  Pièces manquantes dans la boîte
+juste                    POSITIVE     0.77  attendu POSITIVE  Très bon rapport qualité prix
+abstention               INDETERMINE  0.58  attendu NEGATIVE  Le produit ne fonctionne pas du tout
+juste                    POSITIVE     0.64  attendu POSITIVE  Notice claire et utilisation immédiate
+abstention               INDETERMINE  0.55  attendu NEGATIVE  Commande annulée sans explication
+juste                    POSITIVE     0.66  attendu POSITIVE  Excellent achat et produit conforme
+abstention               INDETERMINE  0.57  attendu NEGATIVE  Le colis est arrivé endommagé
+
+Bilan sur 20 avis : abstention 7, juste 13

@@ -1,0 +1,5 @@
+Commande : "C:\Users\HP\Documents\5 IIR\Dev et Dep app intelligentes\tp-6 -02-11-2026\tp-6\.venv311\Scripts\python.exe" -m mypy api
+Dossier : C:\Users\HP\Documents\5 IIR\Dev et Dep app intelligentes\tp-6 -02-11-2026\tp-6
+Code : 0
+
+Success: no issues found in 4 source files

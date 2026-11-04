@@ -1,0 +1,4 @@
+TP5 - mypy
+Code : 0
+
+Success: no issues found in 4 source files

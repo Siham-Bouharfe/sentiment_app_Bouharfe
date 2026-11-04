@@ -1,0 +1,1 @@
+modèle introuvable : C:\Users\HP\AppData\Local\Temp\vscode-agent-codex-sandbox-B6afrY\verification-roue-tp6-22y5m_6n\venv\Lib\site-packages\models\sentiment.joblib. Lancez python src/train.py, ou indiquez son chemin dans SENTIMENT_MODELE

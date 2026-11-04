@@ -1,0 +1,7 @@
+Commande : "C:\Users\HP\Documents\5 IIR\Dev et Dep app intelligentes\tp-6 -02-11-2026\tp-6\.venv311\Scripts\python.exe" src/make_demo.py
+Dossier : C:\Users\HP\Documents\5 IIR\Dev et Dep app intelligentes\tp-6 -02-11-2026\tp-6
+Code : 0
+
+290 avis écrits dans data\demo_reviews.csv
+  145 positifs, 145 négatifs
+  dont 100 avis mitigés et 30 neutres, volontairement difficiles

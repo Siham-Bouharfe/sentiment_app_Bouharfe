@@ -1,0 +1,41 @@
+Commande : "C:\Users\HP\Documents\5 IIR\Dev et Dep app intelligentes\tp-6 -02-11-2026\tp-6\.venv311\Scripts\python.exe" scripts/check_setup.py
+Dossier : C:\Users\HP\Documents\5 IIR\Dev et Dep app intelligentes\tp-6 -02-11-2026\tp-6
+Code : 0
+
+Diagnostic TP1 dans C:\Users\HP\Documents\5 IIR\Dev et Dep app intelligentes\tp-6 -02-11-2026\tp-6
+
+Python
+  OK         version 3.11.9
+  OK         environnement virtuel actif (C:\Users\HP\Documents\5 IIR\Dev et Dep app intelligentes\tp-6 -02-11-2026\tp-6\.venv311)
+Paquets
+  OK         pandas 2.2.3
+  OK         scikit-learn 1.5.2
+  OK         pytest 8.3.5
+Structure du dépôt
+  OK         dossier data/
+  OK         dossier models/
+  OK         dossier app/
+  OK         dossier ui/
+  OK         dossier tests/
+  OK         dossier scripts/
+  OK         dossier docs/cadrage/
+  OK         fichier README.md
+  OK         fichier requirements.txt
+  OK         fichier .gitignore
+  OK         .gitignore contient .venv/
+  OK         .gitignore contient __pycache__/
+  OK         .gitignore contient .env
+  OK         .gitignore contient models/
+  OK         .gitignore contient mlruns/
+Git
+  OK         dépôt Git détecté
+  ATTENTION  aucun commit encore
+  OK         .venv/ n'est pas suivi par Git
+Fiches de cadrage
+  OK         3 fiches trouvées
+  OK         cas1-pharmacie.md : une approche cochée
+  OK         cas2-reglement.md : une approche cochée
+  OK         cas3-avis-negatifs.md : une approche cochée
+
+Résultat : 0 erreur(s), 1 avertissement(s)
+Environnement utilisable ; traiter les avertissements avant la fin du TP.

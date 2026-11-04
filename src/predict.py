@@ -1,66 +1,15 @@
-#!/usr/bin/env python
-"""Prédiction unitaire : la fonction que l'API de la semaine 3 appellera.
+"""Compatibilité (TP6) : le code de prédiction vit désormais dans sentiment_app/predict.py.
 
-Usage :
-  python src/predict.py "Livraison rapide, très satisfait"
-  >>> from predict import predict ; predict("texte")
+Ce fichier garde valides « python src/predict.py "texte" » et « import predict » (tests, scripts).
+À l'import, il se remplace par le vrai module : les deux noms désignent alors le même objet,
+si bien qu'un test qui modifie predict.MODELE modifie bien celui que l'API utilise.
 """
-import os
 import sys
-from functools import lru_cache
 from pathlib import Path
-from typing import Literal, TypedDict, cast
 
-import joblib
-from sklearn.pipeline import Pipeline
-
-RACINE = Path(__file__).resolve().parents[1]
-
-
-def chemin_modele() -> Path:
-    return Path(os.environ.get("SENTIMENT_MODELE") or RACINE / "models" / "sentiment.joblib")
-
-
-MODELE = chemin_modele()
-
-
-class PredictionModele(TypedDict):
-    label: Literal["positive", "negative"]
-    score: float
-
-
-@lru_cache(maxsize=1)
-def charger_modele() -> Pipeline:
-    """Chargé une seule fois par processus, pas à chaque appel."""
-    chemin = chemin_modele()
-    if not chemin.exists():
-        raise FileNotFoundError(
-            f"modèle introuvable : {chemin}. Lancez python src/train.py, "
-            "ou indiquez son chemin dans SENTIMENT_MODELE"
-        )
-    return joblib.load(chemin)
-
-
-def predict(texte: str) -> PredictionModele:
-    """Renvoie {'label': 'positive'|'negative', 'score': float}."""
-    if not isinstance(texte, str) or not texte.strip():
-        raise ValueError("texte vide")
-    pipeline = charger_modele()
-    etiquette = str(pipeline.predict([texte])[0])
-    if etiquette not in {"positive", "negative"}:
-        raise ValueError(f"Classe inattendue du modèle : {etiquette}")
-    score = float(pipeline.predict_proba([texte]).max())
-    return {"label": cast(Literal["positive", "negative"], etiquette), "score": round(score, 4)}
-
-
-def main() -> int:
-    if len(sys.argv) < 2:
-        print(__doc__)
-        return 2
-    resultat = predict(" ".join(sys.argv[1:]))
-    print(f"{resultat['label']} (confiance {resultat['score']:.0%})")
-    return 0
-
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # la racine : sentiment_app, même sans installation
+from sentiment_app import predict as _module  # noqa: E402
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    raise SystemExit(_module.main())
+sys.modules[__name__] = _module

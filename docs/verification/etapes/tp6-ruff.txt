@@ -1,0 +1,4 @@
+TP6 - ruff
+Code : 0
+
+All checks passed!

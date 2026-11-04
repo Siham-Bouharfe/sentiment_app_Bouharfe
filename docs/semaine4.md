@@ -4,9 +4,9 @@
 
 ## 1. Couverture
 
-- Avant (étape A) : 91 %, six lignes de `api/main.py` non exécutées.
-- Ces lignes correspondaient aux modèles absents, aux pannes de prédiction et aux erreurs internes.
-- Après (étape D) : 97 % de couverture ; aucune exclusion abusive, seul le bloc de lancement direct reste non couvert.
+- L'état initial du kit n'a pas été rejoué : aucun pourcentage de départ n'est inventé.
+- Les tests vérifient les modèles absents, les classes incompatibles et les pannes de prédiction.
+- Mesure finale ici : 97,65 % (85 instructions, deux non exécutées), au-dessus des 95 % requis. Le bloc de lancement direct reste non couvert, sans exclusion ajoutée.
 
 ## 2. Défauts trouvés
 

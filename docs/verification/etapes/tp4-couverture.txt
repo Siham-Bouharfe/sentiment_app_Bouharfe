@@ -1,0 +1,25 @@
+TP4 - couverture
+Code : 0
+
+........................................................................ [ 74%]
+.........................                                                [100%]
+============================== warnings summary ===============================
+tests/test_api.py::test_root
+  C:\Users\HP\Documents\5 IIR\Dev et Dep app intelligentes\tp-6 -02-11-2026\tp-6\.venv311\Lib\site-packages\starlette\testclient.py:37: DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+    _PortalFactoryType = typing.Callable[[], typing.ContextManager[anyio.abc.BlockingPortal]]
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=============================== tests coverage ================================
+_______________ coverage: platform win32, python 3.11.9-final-0 _______________
+
+Name             Stmts   Miss  Cover   Missing
+----------------------------------------------
+api\main.py         41      2    95%   83-85
+api\model.py        28      0   100%
+api\schemas.py      19      0   100%
+----------------------------------------------
+TOTAL               88      2    98%
+
+1 empty file skipped.
+Required test coverage of 95% reached. Total coverage: 97.73%
+97 passed, 1 warning in 8.99s

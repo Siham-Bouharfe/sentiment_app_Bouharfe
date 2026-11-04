@@ -1,0 +1,153 @@
+﻿{
+    "date_utc":  "2026-11-04T17:00:12.866986+00:00",
+    "python":  "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "racine":  "C:\\Users\\HP\\Documents\\5 IIR\\Dev et Dep app intelligentes\\tp-6 -02-11-2026\\tp-6",
+    "controles":  [
+                      {
+                          "controle":  "donnees",
+                          "conforme":  true,
+                          "code":  0,
+                          "code_attendu":  0
+                      },
+                      {
+                          "controle":  "entrainement",
+                          "conforme":  true,
+                          "code":  0,
+                          "code_attendu":  0
+                      },
+                      {
+                          "controle":  "diagnostic",
+                          "conforme":  true,
+                          "code":  0,
+                          "code_attendu":  0
+                      },
+                      {
+                          "controle":  "evaluation",
+                          "conforme":  true,
+                          "code":  0,
+                          "code_attendu":  0
+                      },
+                      {
+                          "controle":  "seuil",
+                          "conforme":  true,
+                          "code":  0,
+                          "code_attendu":  0
+                      },
+                      {
+                          "controle":  "jeu-or",
+                          "conforme":  true,
+                          "code":  0,
+                          "code_attendu":  0
+                      },
+                      {
+                          "controle":  "biais",
+                          "conforme":  true,
+                          "code":  0,
+                          "code_attendu":  0
+                      },
+                      {
+                          "controle":  "explicabilite",
+                          "conforme":  true,
+                          "code":  0,
+                          "code_attendu":  0
+                      },
+                      {
+                          "controle":  "pytest",
+                          "conforme":  true,
+                          "code":  0,
+                          "code_attendu":  0
+                      },
+                      {
+                          "controle":  "ruff",
+                          "conforme":  true,
+                          "code":  0,
+                          "code_attendu":  0
+                      },
+                      {
+                          "controle":  "mypy",
+                          "conforme":  true,
+                          "code":  0,
+                          "code_attendu":  0
+                      },
+                      {
+                          "controle":  "couverture",
+                          "conforme":  true,
+                          "code":  0,
+                          "code_attendu":  0
+                      },
+                      {
+                          "controle":  "version",
+                          "conforme":  true,
+                          "code":  0,
+                          "code_attendu":  0
+                      },
+                      {
+                          "controle":  "cli-positif",
+                          "conforme":  true,
+                          "code":  0,
+                          "code_attendu":  0
+                      },
+                      {
+                          "controle":  "cli-abstention",
+                          "conforme":  true,
+                          "code":  0,
+                          "code_attendu":  0
+                      },
+                      {
+                          "controle":  "http-reel",
+                          "conforme":  true
+                      },
+                      {
+                          "controle":  "construction",
+                          "conforme":  true,
+                          "code":  0,
+                          "code_attendu":  0
+                      },
+                      {
+                          "controle":  "contenu-roue",
+                          "conforme":  true
+                      },
+                      {
+                          "controle":  "venv-roue",
+                          "conforme":  true,
+                          "code":  0,
+                          "code_attendu":  0
+                      },
+                      {
+                          "controle":  "installation-roue",
+                          "conforme":  true,
+                          "code":  0,
+                          "code_attendu":  0
+                      },
+                      {
+                          "controle":  "roue-sans-modele",
+                          "conforme":  true,
+                          "code":  1,
+                          "code_attendu":  1
+                      },
+                      {
+                          "controle":  "message-modele-absent",
+                          "conforme":  true
+                      },
+                      {
+                          "controle":  "roue-avec-modele",
+                          "conforme":  true,
+                          "code":  0,
+                          "code_attendu":  0
+                      },
+                      {
+                          "controle":  "prediction-roue",
+                          "conforme":  true
+                      },
+                      {
+                          "controle":  "origine-roue",
+                          "conforme":  true,
+                          "code":  0,
+                          "code_attendu":  0
+                      }
+                  ],
+    "limites":  [
+                    "Historique authentique des deux auteurs conservé ; CI GitHub à vérifier après chaque push",
+                    "Captures historiques et entraînement Allociné non simulés"
+                ]
+}
