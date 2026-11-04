@@ -1,4 +1,4 @@
-name: CI - TP4
+name: CI - TP5
 on: [push, pull_request]
 permissions:
   contents: read

@@ -1,4 +1,4 @@
-# Analyse de sentiment - fin du TP3
+# Analyse de sentiment - fin du TP5
 
 Projet du binôme reconstruit à partir des ressources du cours.
 
