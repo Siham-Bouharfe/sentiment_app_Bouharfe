@@ -1,5 +1,0 @@
-Commande : C:\Users\HP\AppData\Local\Temp\vscode-agent-codex-sandbox-B6afrY\verification-roue-tp6-22y5m_6n\venv\Scripts\sentiment.exe predict "Livraison rapide, produit conforme, très satisfait"
-Dossier : C:\Users\HP\AppData\Local\Temp\vscode-agent-codex-sandbox-B6afrY\verification-roue-tp6-22y5m_6n
-Code : 0
-
-{"label": "POSITIVE", "score": 0.777, "text": "Livraison rapide, produit conforme, très satisfait"}

@@ -1,28 +1,5 @@
 # Journal de bord du binôme : TP1 à TP6
 
-## Reconstruction locale du 4 novembre 2026
-
-Les contrôles des six états TP ont été rejoués dans ce dossier. Les sorties exactes
-figurent dans [verification/etapes/](verification/etapes/) ; la validation finale
-et l'installation de la roue hors du dépôt sont dans
-[verification/](verification/). Les captures historiques laissées vides ci-dessous
-ne sont pas présentées comme réalisées.
-
-| Étape | Résultat local | Preuve |
-| --- | --- | --- |
-| TP1 | 38 tests réussis | [tp1-tests.txt](verification/etapes/tp1-tests.txt) |
-| TP2 | Données, modèle et explicabilité validés | [tp2-tests.txt](verification/etapes/tp2-tests.txt) |
-| TP3 | API et contrat validés | [tp3-tests.txt](verification/etapes/tp3-tests.txt) |
-| TP4 | Tests, couverture, ruff et mypy validés | [tp4-tests.txt](verification/etapes/tp4-tests.txt) |
-| TP5 | Interface et graphiques validés | [tp5-tests.txt](verification/etapes/tp5-tests.txt) |
-| TP6 | 133 tests réussis ; roue testée hors du dépôt | [tp6-tests.txt](verification/etapes/tp6-tests.txt), [rapport.json](verification/rapport.json) |
-
-L'historique importé conserve les deux premiers commits authentiques du binôme.
-Les six pushes et les six pipelines GitHub sont attestés dans
-[le bilan de publication](verification/publication.md). Les captures historiques
-des manipulations non rejouées restent à réaliser par le binôme ; elles ne sont pas
-déduites des tests locaux.
-
 **Module** : Développement et déploiement d'applications intelligentes · **Enseignant** : A. Larhlimi
 
 | | Membre A | Membre B |

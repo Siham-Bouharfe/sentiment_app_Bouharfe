@@ -1,5 +1,0 @@
-Commande : C:\Users\HP\AppData\Local\Temp\vscode-agent-codex-sandbox-B6afrY\verification-roue-tp6-22y5m_6n\venv\Scripts\python.exe -c "import sentiment_app; print(sentiment_app.__file__)"
-Dossier : C:\Users\HP\AppData\Local\Temp\vscode-agent-codex-sandbox-B6afrY\verification-roue-tp6-22y5m_6n
-Code : 0
-
-C:\Users\HP\AppData\Local\Temp\vscode-agent-codex-sandbox-B6afrY\verification-roue-tp6-22y5m_6n\venv\Lib\site-packages\sentiment_app\__init__.py
