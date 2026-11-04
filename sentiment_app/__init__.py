@@ -3,4 +3,4 @@
 La version suit les TP du cours : 0.N.0 à la fin du TP N.
 """
 
-__version__ = "0.6.0"
+__version__ = "1.0.0"
