@@ -1,4 +1,4 @@
-# Analyse de sentiment - fin du TP1
+# Analyse de sentiment - fin du TP2
 
 Projet du binôme reconstruit à partir des ressources du cours.
 
@@ -6,6 +6,8 @@ Projet du binôme reconstruit à partir des ressources du cours.
 py -3.11 -m venv .venv
 .venv\Scripts\Activate.ps1
 pip install -r requirements.lock
+python src/make_demo.py
+python src/train.py
 python scripts/check_setup.py
 python -m pytest -q
 ```

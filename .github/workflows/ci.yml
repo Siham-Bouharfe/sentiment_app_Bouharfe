@@ -1,4 +1,4 @@
-name: CI - TP1
+name: CI - TP2
 on: [push, pull_request]
 permissions:
   contents: read
@@ -22,5 +22,7 @@ jobs:
           python -m pip install -r requirements.lock
       - name: Diagnostic TP1
         run: . .venv/bin/activate && python scripts/check_setup.py
+      - name: Entraînement reproductible
+        run: . .venv/bin/activate && python src/make_demo.py && python src/train.py
       - name: Tests
         run: . .venv/bin/activate && python -m pytest -q
